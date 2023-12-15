@@ -1,5 +1,11 @@
-Modul 6 
-praktikum yang berfokus pada pengembangan model untuk mengenali gestur tangan dalam permainan batu, kertas, gunting (Rock-Paper-Scissors atau RPS). Dataset yang digunakan terdiri dari gambar-gambar representatif dari ketiga gestur tersebut, yaitu ROCK, PAPER, dan SCISSORS.
+Dataset: RPS
+
+ROCK
+PAPER
+SCISSORS
+Model di train menggunakan Transfer Learning EfficientNetV2B0 dilakukan dengan 10 epochs serta penerapan data augmentation.
+
+EfficientNetV2B0: EfficientNetV2 adalah serangkaian arsitektur jaringan saraf yang dikembangkan oleh Google yang diperkenalkan sebagai evolusi dari EfficientNet. Versi EfficientNetV2B0 adalah model yang lebih kecil dari serangkaian tersebut. Model ini menggunakan teknik optimasi yang inovatif untuk mencapai tingkat kinerja yang baik dengan jumlah parameter yang lebih sedikit dibandingkan dengan arsitektur lainnya.
 
 Pada modul ini, model dilatih menggunakan pendekatan Transfer Learning dengan memanfaatkan arsitektur . EffNetmod5 adalah serangkaian arsitektur jaringan saraf yang dikembangkan oleh Google, yang merupakan evolusi dari model sebelumnya, yaitu EfficientNet.
 
